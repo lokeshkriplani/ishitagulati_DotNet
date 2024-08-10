@@ -1,0 +1,125 @@
+﻿@model AdminDashboardViewModel
+
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+<p>Welcome, Admin!</p>
+
+@if (Model.Bookings == null || !Model.Bookings.Any())
+{
+    <p>No bookings found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Email</th>
+                <th>Event Date</th>
+                <th>Makeup Type</th>
+                <th>Number of Makeups</th>
+                <th>Ready Time</th>
+                <th>Location</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var booking in Model.Bookings)
+            {
+                <tr>
+                    <td>@booking.Name</td>
+                    <td>@booking.Mobile</td>
+                    <td>@booking.RecipientEmail</td>
+                    <td>@booking.EventDate.ToString("yyyy-MM-dd")</td>
+                    <td>@booking.MakeupType</td>
+                    <td>@booking.NumberOfMakeups</td>
+                    <td>@booking.ReadyTime.ToString(@"hh\:mm")</td>
+                    <td>@booking.EventLocation</td>
+                    <td>
+                        <form asp-action="Delete_booking" asp-controller="Home" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@booking.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<h3></h3>
+<h3></h3>
+<form asp-action="UploadPdf" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="PdfFile" class="control-label"></label>
+        <input asp-for="PdfFile" class="form-control" type="file" />
+        <span asp-validation-for="PdfFile" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="SelectedUserId" class="control-label">Select User</label>
+        <select asp-for="SelectedUserId" asp-items="Model.Users" class="form-control"></select>
+        <span asp-validation-for="SelectedUserId" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Upload PDF</button>
+</form>
+
+@if (Model.PdfLinks != null)
+{
+    foreach (var pdf in Model.PdfLinks.Where(p => p.UserId == Model.CurrentUserId))
+    {
+        <div>
+            <a href="@pdf.FilePath" target="_blank">Download your PDF</a>
+        </div>
+    }
+}
+
+<!-- Display existing bookings and PDFs -->
+@if (Model.PdfLinks != null)
+{
+    foreach (var booking in Model.PdfLinks)
+    {
+        <div>
+            <p>@booking.UserId - @booking.FilePath</p>
+        </div>
+    }
+}
+
+@if (Model.PdfLinks != null)
+{
+    foreach (var pdf in Model.PdfLinks)
+    {
+        <div>
+            <a href="@pdf.FilePath" target="_blank">View PDF for @pdf.UserId</a>
+        </div>
+    }
+}
+<h3></h3>
+<h3></h3>
+<h3>User QR Codes</h3>
+@if (Model.Users != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>QR Code</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Users)
+            {
+                <tr>
+                    <td>@user.Text</td>
+                    <td>
+                        <img src="data:image/png;base64,@Model.QrCodes[user.Value]" alt="QR Code" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}

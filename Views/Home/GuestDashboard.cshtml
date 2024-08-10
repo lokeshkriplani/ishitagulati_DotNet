@@ -1,0 +1,18 @@
+﻿@model GuestDashboardViewModel
+
+@{
+    ViewData["Title"] = "Guest Dashboard";
+}
+
+<h2>Guest Dashboard</h2>
+<p>Welcome, Guest!</p>
+
+@if (Model.PdfLinks != null)
+{
+    foreach (var pdf in Model.PdfLinks.Where(p => p.UserId == Model.CurrentUserId))
+    {
+        <div>
+            <a href="@pdf.FilePath" target="_blank">Download your PDF</a>
+        </div>
+    }
+}

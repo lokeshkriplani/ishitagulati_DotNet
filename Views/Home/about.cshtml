@@ -1,0 +1,194 @@
+﻿@{
+    ViewData["Title"] = "about";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"] - Ishita Gulati</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+	@* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-vxKIVKhzICFZP+EN5fV5bYM6SkMjlw8Kb+Rqz+ABY+/Hg7DAA6F9LbBp4p1w0g4AK83iDbfHeWOpSJK7k18Akg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> *@
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<style>
+    .blurry-text {
+        backdrop-filter: blur(5px); /* Adjust blur intensity as needed */
+        background-color: rgba(255, 255, 255, 0.5); /* Adjust background color and opacity */
+        padding: 10px; /* Add some padding to improve readability */
+        border-radius: 10px; /* Optional: Add rounded corners */
+    }
+
+    body {
+        font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("~/lib/Photo.jpg"); /* Corrected path */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        border-bottom: 100px solid #000;
+    }
+
+    table {
+        width: 50%;
+        margin: 50px auto;
+        border-collapse: collapse;
+        background-color: #f2f2f2; /* Add background color to the table */
+    }
+
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .nav-link {
+        color: #000 !important; /* Set text color to white for the nav-link */
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        font-size: 10px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.6;
+    }
+
+    .profile-img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    .navbar-toggler-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 8px;
+        color: #000;
+    }
+
+    /* Fixed button container */
+    .fixed-buttons {
+        position: fixed;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Individual button style */
+    .fixed-buttons a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background-color: #fff; /* Adjust button background color */
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000; /* Adjust button text color */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s ease;
+    }
+
+    .fixed-buttons img {
+        width: 40px; /* Adjust the width of the logos as needed */
+        height: 40px; /* Adjust the height of the logos as needed */
+    }
+
+    .fixed-buttons a:hover {
+        background-color: #ccc; /* Adjust button background color on hover */
+    }
+
+    /* Media query for screens up to 767px wide (typical smartphones) */
+
+    /* Add other styles as needed */
+</style>
+
+<body onload="funload()">
+   
+
+    <div class="fixed-buttons">
+        <a href="https://www.instagram.com/ishitaagulati/" target="_blank">
+            <img src="~/instagram_logo.png" alt="Instagram Logo">
+        </a> <!-- Instagram link -->
+        <a href="https://www.facebook.com/ishitaagulatimua" target="_blank">
+            <img src="~/facebook_logo.png" alt="Facebook Logo">
+        </a> <!-- Facebook link -->
+        <a href="https://www.pinterest.com/ishitaagulati" target="_blank">
+            <img src="~/pinterest_logo.png" alt="Pinterest Logo">
+        </a> <!-- Pinterest link -->
+    </div>
+
+
+    <div class="container">
+        <h1>About Me</h1>
+        <img src="~/me.jpg" alt="Makeup Artist" class="profile-img">
+        <p>Welcome to my Makeup Artistry page! I'm thrilled to have you here. My name is Ishita Gulati, and I am a
+            passionate and experienced makeup artist dedicated to helping you look and feel your best for any occasion.</p>
+        <p>With a background in makeup artistry and years of experience in the beauty industry, I have honed my skills to
+            create stunning looks that enhance your natural beauty and leave you feeling confident and radiant.</p>
+        <p>Whether it's your wedding day, a special event, a photoshoot, or simply a day when you want to treat yourself,
+            I am here to provide you with top-notch makeup services that cater to your unique style and preferences.</p>
+        <p>Browse through my portfolio to see some of my previous work, and don't hesitate to reach out if you have any
+            questions or would like to book a session. I'm excited to work with you and bring your beauty vision to
+            life!</p>
+        <p>Thank you for visiting, and I look forward to helping you look and feel your absolute best.</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+    // Image Slideshow
+    const images = ["../wwwroot/Photo.jpg", "../wwwroot/Photo1.jpg", "../wwwroot/Photo2.jpg"];
+    let currentImageIndex = 0;
+
+    function startSlideshow() {
+      setInterval(updateBackground, 5000); // Change image every 5 seconds
+    }
+
+    function updateBackground() {
+      document.body.style.backgroundImage = `url("${images[currentImageIndex]}")`;
+      currentImageIndex = (currentImageIndex + 1) % images.length;
+    }
+
+    // Preloder script
+    function funload() {
+      //loading.style.display = "none";
+      startSlideshow(); // Start the slideshow after the preloader
+    }
+  </script>
+</body>
+</html>

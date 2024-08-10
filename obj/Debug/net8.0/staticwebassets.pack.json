@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/obj/Debug/net8.0/scopedcss/projectbundle/ishitagualti.bundle.scp.css",
+      "PackagePath": "staticwebassets/ishitagualti.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/Photo.jpg",
+      "PackagePath": "staticwebassets/Photo.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/Photo1.jpg",
+      "PackagePath": "staticwebassets/Photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/Photo2.jpg",
+      "PackagePath": "staticwebassets/Photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/academy_photo1.jpg",
+      "PackagePath": "staticwebassets/academy_photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/academy_photo2.jpg",
+      "PackagePath": "staticwebassets/academy_photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/academy_photo3.jpg",
+      "PackagePath": "staticwebassets/academy_photo3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/airbrush/Photo1.jpg",
+      "PackagePath": "staticwebassets/airbrush/Photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/airbrush/Photo2.jpg",
+      "PackagePath": "staticwebassets/airbrush/Photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/airbrush/Photo3.jpg",
+      "PackagePath": "staticwebassets/airbrush/Photo3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/airbrush/main-photo.jpg",
+      "PackagePath": "staticwebassets/airbrush/main-photo.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/brands.jpg",
+      "PackagePath": "staticwebassets/brands.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/brands1.jpg",
+      "PackagePath": "staticwebassets/brands1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/brands2.jpg",
+      "PackagePath": "staticwebassets/brands2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/brands3.jpg",
+      "PackagePath": "staticwebassets/brands3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/main-photo.jpg",
+      "PackagePath": "staticwebassets/bridal/main-photo.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo1.jpg",
+      "PackagePath": "staticwebassets/bridal/photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo2.jpg",
+      "PackagePath": "staticwebassets/bridal/photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo3.jpg",
+      "PackagePath": "staticwebassets/bridal/photo3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo4.jpg",
+      "PackagePath": "staticwebassets/bridal/photo4.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo5.jpg",
+      "PackagePath": "staticwebassets/bridal/photo5.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo6.jpg",
+      "PackagePath": "staticwebassets/bridal/photo6.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo7.jpg",
+      "PackagePath": "staticwebassets/bridal/photo7.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo8.jpg",
+      "PackagePath": "staticwebassets/bridal/photo8.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/bridal/photo9.jpg",
+      "PackagePath": "staticwebassets/bridal/photo9.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/facebook_logo.png",
+      "PackagePath": "staticwebassets/facebook_logo.png"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/index1.jpg",
+      "PackagePath": "staticwebassets/index1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/index2.jpg",
+      "PackagePath": "staticwebassets/index2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/index3.jpg",
+      "PackagePath": "staticwebassets/index3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/instagram_logo.png",
+      "PackagePath": "staticwebassets/instagram_logo.png"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo1.jpg",
+      "PackagePath": "staticwebassets/mature/Photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo10.jpg",
+      "PackagePath": "staticwebassets/mature/Photo10.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo11.jpg",
+      "PackagePath": "staticwebassets/mature/Photo11.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo12.jpg",
+      "PackagePath": "staticwebassets/mature/Photo12.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo13.jpg",
+      "PackagePath": "staticwebassets/mature/Photo13.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo14.jpg",
+      "PackagePath": "staticwebassets/mature/Photo14.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo15.jpg",
+      "PackagePath": "staticwebassets/mature/Photo15.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo2.jpg",
+      "PackagePath": "staticwebassets/mature/Photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo3.jpg",
+      "PackagePath": "staticwebassets/mature/Photo3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo4.jpg",
+      "PackagePath": "staticwebassets/mature/Photo4.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo5.jpg",
+      "PackagePath": "staticwebassets/mature/Photo5.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo6.jpg",
+      "PackagePath": "staticwebassets/mature/Photo6.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo7.jpg",
+      "PackagePath": "staticwebassets/mature/Photo7.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo8.jpg",
+      "PackagePath": "staticwebassets/mature/Photo8.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/Photo9.jpg",
+      "PackagePath": "staticwebassets/mature/Photo9.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/mature/main-photo.jpg",
+      "PackagePath": "staticwebassets/mature/main-photo.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/me.jpg",
+      "PackagePath": "staticwebassets/me.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/main-photo.jpg",
+      "PackagePath": "staticwebassets/party/main-photo.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo1.jpg",
+      "PackagePath": "staticwebassets/party/photo1.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo10.jpg",
+      "PackagePath": "staticwebassets/party/photo10.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo11.jpg",
+      "PackagePath": "staticwebassets/party/photo11.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo12.jpg",
+      "PackagePath": "staticwebassets/party/photo12.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo2.jpg",
+      "PackagePath": "staticwebassets/party/photo2.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo3.jpg",
+      "PackagePath": "staticwebassets/party/photo3.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo4.jpg",
+      "PackagePath": "staticwebassets/party/photo4.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo5.jpg",
+      "PackagePath": "staticwebassets/party/photo5.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo6.jpg",
+      "PackagePath": "staticwebassets/party/photo6.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo7.jpg",
+      "PackagePath": "staticwebassets/party/photo7.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo8.jpg",
+      "PackagePath": "staticwebassets/party/photo8.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/party/photo9.jpg",
+      "PackagePath": "staticwebassets/party/photo9.jpg"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/pinterest_logo.png",
+      "PackagePath": "staticwebassets/pinterest_logo.png"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/uploads/Resume.pdf",
+      "PackagePath": "staticwebassets/uploads/Resume.pdf"
+    },
+    {
+      "Id": "/Users/lokeshkriplani/projects/ishitagualti/wwwroot/uploads/Resume_updated13:02.pdf",
+      "PackagePath": "staticwebassets/uploads/Resume_updated13:02.pdf"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ishitagualti.props",
+      "PackagePath": "build\\ishitagualti.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ishitagualti.props",
+      "PackagePath": "buildMultiTargeting\\ishitagualti.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ishitagualti.props",
+      "PackagePath": "buildTransitive\\ishitagualti.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ishitagualti.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

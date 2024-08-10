@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>@ViewData["Title"]</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/site.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+        }
+
+        header {
+            background-color: #343a40;
+            padding: 2px 0;
+            text-align: center;
+        }
+
+        .navbar-brand img {
+            width: 100px;
+            height: auto;
+            display: block;
+        }
+
+        .navbar-toggler {
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+            font-size: 10px; /* Adjust the font size as needed */
+        }
+
+        .navbar-toggler-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 8px; /* Increase the font size for better visibility */
+            color: #000; /* Change the text color to contrast with the background */
+        }
+
+        .navbar-nav .nav-item {
+            margin-right: 15px;
+        }
+
+        .navbar-nav .nav-link {
+            color: ##000 !important;
+        }
+
+        #form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 100%;
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: calc(100% - 16px);
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #28a745;
+            color: #fff;
+            padding: 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .fixed-buttons {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .fixed-buttons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #fff; /* Adjust button background color */
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            color: #000; /* Adjust button text color */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .fixed-buttons img {
+            width: 40px; /* Adjust the width of the logos as needed */
+            height: 40px; /* Adjust the height of the logos as needed */
+        }
+
+        .fixed-buttons a:hover {
+            background-color: #ccc; /* Adjust button background color on hover */
+        }
+
+        #loadingSpinner {
+            display: none;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+
+        #loadingSpinner .spinner {
+            border: 16px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 16px solid #3498db;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @@keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+
+</head>
+<body>
+
+     <div id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="form-container">
+        <form id="makeupForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="recipientEmail">Recipient Email:</label>
+            <input type="email" id="recipientEmail" name="recipientEmail" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="location">Location:</label>
+            <textarea id="location" name="location" rows="4" required></textarea>
+
+            <label for="makeupType">Makeup Type:</label>
+            <select id="makeupType" name="makeupType" required>
+                <option value="Makeup Course">Makeup Course</option>
+                <option value="Bridal Makeup">Bridal Makeup</option>
+                <option value="Party Makeup">Party Makeup</option>
+            </select>
+
+            <label for="numberOfMakeups">Number of Makeups:</label>
+            <input type="number" id="numberOfMakeups" name="numberOfMakeups" min="1" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+  
+    <script>
+    document.getElementById('makeupForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(this);
+
+        fetch('http://localhost:3001/submit', {
+            method: 'POST',
+            body: JSON.stringify({
+                name: formData.get('name'),
+                mobile: formData.get('mobile'),
+                recipientEmail: formData.get('recipientEmail'),
+                eventDate: formData.get('date'),
+                makeupType: formData.get('makeupType'),
+                numberOfMakeups: formData.get('numberOfMakeups'),
+                readyTime: formData.get('time'),
+                eventLocation: formData.get('location')
+            }),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Success:', data);
+            alert(data.message);
+            this.reset(); // Reset the form after submission
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('There was a problem with your booking request. Please try again.');
+        });
+    });
+</script>
+<script>
+        document.getElementById('form-container').addEventListener('submit', async function(event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Show the loading spinner
+            document.getElementById('loadingSpinner').style.display = 'block';
+
+            const formData = new FormData(event.target);
+            const formObject = Object.fromEntries(formData.entries());
+
+            try {
+                const response = await fetch('http://localhost:3001/submit', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formObject)
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    alert(result.message);
+                } else {
+                    alert('Failed to submit form: ' + result.error);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred while submitting the form.');
+            } finally {
+                // Hide the loading spinner
+                document.getElementById('loadingSpinner').style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>

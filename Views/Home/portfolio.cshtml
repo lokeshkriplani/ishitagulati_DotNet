@@ -1,0 +1,259 @@
+﻿@{
+    ViewData["Title"] = "Portfolio";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewData["Title"]</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="~/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicons/favicon-16x16.png">
+    <link rel="manifest" href="~/favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/styles.css">
+    <style>
+         /* Fixed button container */
+        .fixed-buttons {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Individual button style */
+        .fixed-buttons a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: #fff; /* Adjust button background color */
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-size: 20px;
+            color: #000; /* Adjust button text color */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+        }
+
+        .fixed-buttons img {
+    width: 40px; /* Adjust the width of the logos as needed */
+    height: 40px; /* Adjust the height of the logos as needed */
+}
+
+
+        .fixed-buttons a:hover {
+            background-color: #ccc; /* Adjust button background color on hover */
+        }
+
+        .bigger-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .small-image {
+            width: 48%;
+            height: auto;
+            display: inline-block;
+            margin: 1%;
+        }
+
+        .about-me {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .gallery .group {
+            flex-basis: 22%;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .gallery .group h3 {
+            margin-bottom: 15px;
+        }
+
+        .gallery .main-photo {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .gallery .main-photo:hover {
+            transform: scale(1.05);
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .modal-content {
+            position: relative;
+            margin: auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 700px;
+        }
+
+        .modal-content img {
+            margin-bottom: 10px;
+            width: 100%;
+            height: auto;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .container h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body onload="funload()">
+    <div class="fixed-buttons">
+        <a href="https://www.instagram.com/ishitaagulati/" target="_blank">
+            <img src="~/instagram_logo.png" alt="Instagram Logo">
+        </a>
+        <a href="https://www.facebook.com/ishitaagulatimua" target="_blank">
+            <img src="~/facebook_logo.png" alt="Facebook Logo">
+        </a>
+        <a href="https://www.pinterest.com/ishitaagulati" target="_blank">
+            <img src="~/pinterest_logo.png" alt="Pinterest Logo">
+        </a>
+    </div>
+
+    
+
+    <div class="container mt-4">
+        <h2>Are you planning for your big day?</h2>
+        <div class="about-me">
+            <p>A good makeup artist understands the theme and style of your wedding, creating a look that complements the occasion. Beyond the aesthetics, their presence alleviates stress, allowing you to fully enjoy the day while feeling confident and beautiful. The memories captured will be a testament to the investment made in selecting the right makeup artist for this once-in-a-lifetime moment.</p>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="group" id="bridal">
+            <h3>Bridal</h3>
+            <img class="main-photo" src="~/bridal/main-photo.jpg" alt="Bridal Main Photo" onclick="openModal('bridal')">
+        </div>
+        <div class="group" id="party">
+            <h3>Party</h3>
+            <img class="main-photo" src="~/party/main-photo.jpg" alt="Party Main Photo" onclick="openModal('party')">
+        </div>
+        <div class="group" id="airbrush">
+            <h3>Airbrush</h3>
+            <img class="main-photo" src="~/airbrush/main-photo.jpg" alt="Airbrush Main Photo" onclick="openModal('airbrush')">
+        </div>
+        <div class="group" id="mature">
+            <h3>Mature</h3>
+            <img class="main-photo" src="~/mature/main-photo.jpg" alt="Mature Main Photo" onclick="openModal('mature')">
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+            <!-- Individual photos will be added dynamically using JavaScript -->
+        </div>
+    </div>
+
+    <script>
+        function openModal(group) {
+            var modal = document.getElementById('myModal');
+            var modalContent = document.querySelector('.modal-content');
+            modalContent.innerHTML = ''; // Clear previous content
+
+            // Dynamically load photos based on availability
+            var photoCount = 1;
+            while (true) {
+                var img = document.createElement('img');
+                img.src = `../${group}/photo${photoCount}.jpg`;
+                img.alt = `${group} Photo ${photoCount}`;
+
+                // Check if the photo exists
+                var xhr = new XMLHttpRequest();
+                xhr.open('HEAD', img.src, false);
+                xhr.send();
+                if (xhr.status !== 200) {
+                    console.error("break");
+                    break; // Photo doesn't exist, break the loop
+                }
+
+                modalContent.appendChild(img);
+                photoCount++;
+            }
+
+            modal.style.display = 'block';
+        }
+
+        function closeModal() {
+            var modal = document.getElementById('myModal');
+            modal.style.display = 'none';
+        }
+    </script>
+
+    <script>
+        // Image Slideshow
+        const images = ["Photo.jpg", "Photo1.jpg", "Photo2.jpg"];
+        let currentImageIndex = 0;
+
+        function startSlideshow() {
+            setInterval(updateBackground, 5000); // Change image every 5 seconds
+        }
+
+        function updateBackground() {
+            document.body.style.backgroundImage = `url("${images[currentImageIndex]}")`;
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+        }
+
+        // Preloader script
+        function funload() {
+            //loading.style.display = "none";
+            startSlideshow(); // Start the slideshow after the preloader
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

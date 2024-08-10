@@ -1,0 +1,586 @@
+2024-08-06 00:10:51.890 +05:30 [FTL] An error occurred creating roles
+System.InvalidOperationException: No service for type 'Microsoft.AspNetCore.Identity.RoleManager`1[Microsoft.AspNetCore.Identity.IdentityRole]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at RoleInitializer.InitializeAsync(IServiceProvider serviceProvider) in /Users/lokeshkriplani/projects/ishitagualti/RoleInitializer.cs:line 10
+   at Program.<Main>$(String[] args) in /Users/lokeshkriplani/projects/ishitagualti/Program.cs:line 65
+2024-08-06 00:10:51.947 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/about.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/academy.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/AdminDashboard.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/booknow.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/bridal_booking.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/callnow.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/GuestDashboard.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/index.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Login.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/party_makeup.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/portfolio.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/pricelist.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Register.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/Error.cshtml'.
+2024-08-06 00:10:51.948 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/pricelist.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_LoginPartial.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/AccessDenied.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmail.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ExternalLogin.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPassword.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Lockout.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Login.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWith2fa.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Logout.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Email.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/Index.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_Layout.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/Register.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPassword.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_StatusMessage.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Account/_ViewImports.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/Error.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_Layout.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewImports.cshtml'.
+2024-08-06 00:10:51.949 +05:30 [DBG] Initializing Razor view compiler with compiled view: '/Areas/Identity/Pages/_ViewStart.cshtml'.
+2024-08-06 00:10:51.953 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-08-06 00:10:51.965 +05:30 [INF] User profile is available. Using '/Users/lokeshkriplani/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2024-08-06 00:10:52.012 +05:30 [DBG] Hosting starting
+2024-08-06 00:10:52.016 +05:30 [DBG] Reading data from file '/Users/lokeshkriplani/.aspnet/DataProtection-Keys/key-f65cca48-e5bd-4ee6-9cd6-76edf2af5d3f.xml'.
+2024-08-06 00:10:52.019 +05:30 [DBG] Found key {f65cca48-e5bd-4ee6-9cd6-76edf2af5d3f}.
+2024-08-06 00:10:52.022 +05:30 [DBG] Considering key {f65cca48-e5bd-4ee6-9cd6-76edf2af5d3f} with expiration date 2024-10-09 11:28:14Z as default key.
+2024-08-06 00:10:52.022 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-08-06 00:10:52.025 +05:30 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2024-08-06 00:10:52.025 +05:30 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2024-08-06 00:10:52.027 +05:30 [DBG] Using key {f65cca48-e5bd-4ee6-9cd6-76edf2af5d3f} as the default key.
+2024-08-06 00:10:52.027 +05:30 [DBG] Key ring with default key {f65cca48-e5bd-4ee6-9cd6-76edf2af5d3f} was loaded during application startup.
+2024-08-06 00:10:52.041 +05:30 [INF] Now listening on: http://localhost:5095
+2024-08-06 00:10:52.041 +05:30 [DBG] Loaded hosting startup assembly ishitagualti
+2024-08-06 00:10:52.041 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-06 00:10:52.041 +05:30 [INF] Hosting environment: Development
+2024-08-06 00:10:52.041 +05:30 [INF] Content root path: /Users/lokeshkriplani/projects/ishitagualti
+2024-08-06 00:10:52.041 +05:30 [DBG] Hosting started
+2024-08-06 00:10:52.179 +05:30 [DBG] Connection id "0HN5LFOH11AQV" accepted.
+2024-08-06 00:10:52.179 +05:30 [DBG] Connection id "0HN5LFOH11AQV" started.
+2024-08-06 00:10:52.238 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5095/ - null null
+2024-08-06 00:10:52.239 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-08-06 00:10:52.240 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-08-06 00:10:52.241 +05:30 [DBG] The request path / does not match a supported file type
+2024-08-06 00:10:52.256 +05:30 [DBG] 1 candidate(s) found for the request path '/'
+2024-08-06 00:10:52.257 +05:30 [DBG] Endpoint 'ishitagualti.Controllers.HomeController.Index (ishitagualti)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2024-08-06 00:10:52.258 +05:30 [DBG] Request matched endpoint 'ishitagualti.Controllers.HomeController.Index (ishitagualti)'
+2024-08-06 00:10:52.344 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-08-06 00:10:52.405 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-08-06 00:10:52.407 +05:30 [INF] Executing endpoint 'ishitagualti.Controllers.HomeController.Index (ishitagualti)'
+2024-08-06 00:10:52.416 +05:30 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ishitagualti.Controllers.HomeController (ishitagualti).
+2024-08-06 00:10:52.418 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2024-08-06 00:10:52.418 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:10:52.418 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-06 00:10:52.418 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 00:10:52.418 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:10:52.420 +05:30 [DBG] Executing controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:10:52.420 +05:30 [DBG] Executed controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:10:52.422 +05:30 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2024-08-06 00:10:52.423 +05:30 [INF] Executing ViewResult, running view Index.
+2024-08-06 00:10:52.425 +05:30 [DBG] The view path '/Views/Home/index.cshtml' was found in 2.1265ms.
+2024-08-06 00:10:52.442 +05:30 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2024-08-06 00:10:52.506 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:52.507 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:52.508 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:52.508 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:52.508 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:52.508 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:52.509 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BridalMakeup],controller=[Home])
+2024-08-06 00:10:52.509 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BridalMakeup and 
+2024-08-06 00:10:52.509 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BridalMakeup
+2024-08-06 00:10:52.509 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[PartyMakeup],controller=[Home])
+2024-08-06 00:10:52.509 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/PartyMakeup and 
+2024-08-06 00:10:52.509 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/PartyMakeup
+2024-08-06 00:10:52.509 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BookNow],controller=[Home])
+2024-08-06 00:10:52.509 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BookNow and 
+2024-08-06 00:10:52.510 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BookNow
+2024-08-06 00:10:52.510 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Portfolio],controller=[Home])
+2024-08-06 00:10:52.510 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Portfolio and 
+2024-08-06 00:10:52.510 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Portfolio
+2024-08-06 00:10:52.510 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Academy],controller=[Home])
+2024-08-06 00:10:52.510 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Academy and 
+2024-08-06 00:10:52.510 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Academy
+2024-08-06 00:10:52.510 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[About],controller=[Home])
+2024-08-06 00:10:52.510 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/About and 
+2024-08-06 00:10:52.510 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/About
+2024-08-06 00:10:52.512 +05:30 [DBG] View lookup cache miss for view '_LoginPartial' in controller 'Home'.
+2024-08-06 00:10:52.515 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[AdminDashboard],controller=[Home])
+2024-08-06 00:10:52.515 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/AdminDashboard and 
+2024-08-06 00:10:52.515 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/AdminDashboard
+2024-08-06 00:10:52.517 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:52.517 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:52.517 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:52.517 +05:30 [DBG] Found the endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] for address (returnUrl=[/],area=[Identity],page=[/Account/Logout])
+2024-08-06 00:10:52.518 +05:30 [DBG] Successfully processed template Identity/Account/Logout for /Account/Logout resulting in /Identity/Account/Logout and ?returnUrl=%2F
+2024-08-06 00:10:52.518 +05:30 [DBG] Link generation succeeded for endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] with result /Identity/Account/Logout?returnUrl=%2F
+2024-08-06 00:10:52.519 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:10:52.520 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-08-06 00:10:52.520 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-06 00:10:52.520 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-08-06 00:10:52.524 +05:30 [INF] Executed ViewResult - view Index executed in 102.3981ms.
+2024-08-06 00:10:52.524 +05:30 [INF] Executed action ishitagualti.Controllers.HomeController.Index (ishitagualti) in 105.7245ms
+2024-08-06 00:10:52.524 +05:30 [INF] Executed endpoint 'ishitagualti.Controllers.HomeController.Index (ishitagualti)'
+2024-08-06 00:10:52.524 +05:30 [DBG] Connection id "0HN5LFOH11AQV" completed keep alive response.
+2024-08-06 00:10:52.528 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5095/ - 200 null text/html; charset=utf-8 290.811ms
+2024-08-06 00:10:52.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5095/site.css - null null
+2024-08-06 00:10:52.529 +05:30 [DBG] The request path /site.css does not match an existing file
+2024-08-06 00:10:52.531 +05:30 [DBG] No candidates found for the request path '/site.css'
+2024-08-06 00:10:52.531 +05:30 [DBG] Request did not match any endpoints
+2024-08-06 00:10:52.541 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-08-06 00:10:52.542 +05:30 [DBG] Connection id "0HN5LFOH11AQV" completed keep alive response.
+2024-08-06 00:10:52.542 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5095/site.css - 404 0 null 13.4857ms
+2024-08-06 00:10:52.543 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5095/site.css, Response status code: 404
+2024-08-06 00:10:53.643 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5095/Home/AdminDashboard - null null
+2024-08-06 00:10:53.644 +05:30 [DBG] The request path /Home/AdminDashboard does not match a supported file type
+2024-08-06 00:10:53.651 +05:30 [DBG] 1 candidate(s) found for the request path '/Home/AdminDashboard'
+2024-08-06 00:10:53.652 +05:30 [DBG] Endpoint 'ishitagualti.Controllers.HomeController.AdminDashboard (ishitagualti)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/AdminDashboard'
+2024-08-06 00:10:53.652 +05:30 [DBG] Request matched endpoint 'ishitagualti.Controllers.HomeController.AdminDashboard (ishitagualti)'
+2024-08-06 00:10:53.670 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-08-06 00:10:53.677 +05:30 [DBG] Authorization was successful.
+2024-08-06 00:10:53.677 +05:30 [INF] Executing endpoint 'ishitagualti.Controllers.HomeController.AdminDashboard (ishitagualti)'
+2024-08-06 00:10:53.687 +05:30 [INF] Route matched with {action = "AdminDashboard", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AdminDashboard() on controller ishitagualti.Controllers.HomeController (ishitagualti).
+2024-08-06 00:10:53.687 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter"]
+2024-08-06 00:10:53.687 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:10:53.687 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-06 00:10:53.687 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 00:10:53.687 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:10:53.687 +05:30 [DBG] Executing controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:10:53.688 +05:30 [DBG] Executed controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:10:53.850 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2024-08-06 00:10:53.850 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2024-08-06 00:10:53.942 +05:30 [DBG] Entity Framework Core 8.0.7 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.7' with options: None
+2024-08-06 00:10:53.962 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .FirstOrDefault(e => EF.Property<string>(e, "Id") == __p_0)'
+2024-08-06 00:10:54.035 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<IdentityUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(1) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.Id == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, IdentityUser>, 
+        ishitagualti.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-08-06 00:10:54.048 +05:30 [DBG] Creating DbConnection.
+2024-08-06 00:10:54.051 +05:30 [DBG] Created DbConnection. (3ms).
+2024-08-06 00:10:54.052 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.059 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.060 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.061 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.062 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2024-08-06 00:10:54.065 +05:30 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."Id" = @__p_0
+LIMIT 1
+2024-08-06 00:10:54.073 +05:30 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."Id" = @__p_0
+LIMIT 1
+2024-08-06 00:10:54.085 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 00:10:54.099 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.100 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 25ms reading results.
+2024-08-06 00:10:54.101 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.102 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.102 +05:30 [INF] AdminDashboard action invoked.
+2024-08-06 00:10:54.103 +05:30 [INF] Fetching bookings from database.
+2024-08-06 00:10:54.104 +05:30 [DBG] Compiling query expression: 
+'DbSet<MakeupBooking>()'
+2024-08-06 00:10:54.106 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MakeupBooking>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MakeupBooking.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MakeupBooking.EventDate (DateTime) Required, 1], [Property: MakeupBooking.EventLocation (string) Required, 2], [Property: MakeupBooking.MakeupType (string) Required, 3], [Property: MakeupBooking.Mobile (string) Required, 4], [Property: MakeupBooking.Name (string) Required, 5], [Property: MakeupBooking.NumberOfMakeups (int) Required, 6], [Property: MakeupBooking.ReadyTime (TimeSpan) Required, 7], [Property: MakeupBooking.RecipientEmail (string) Required, 8] }
+        SELECT m.Id, m.EventDate, m.EventLocation, m.MakeupType, m.Mobile, m.Name, m.NumberOfMakeups, m.ReadyTime, m.RecipientEmail
+        FROM MakeupBookings AS m), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MakeupBooking>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.106 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.106 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.106 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.106 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.106 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.107 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."EventDate", "m"."EventLocation", "m"."MakeupType", "m"."Mobile", "m"."Name", "m"."NumberOfMakeups", "m"."ReadyTime", "m"."RecipientEmail"
+FROM "MakeupBookings" AS "m"
+2024-08-06 00:10:54.107 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."EventDate", "m"."EventLocation", "m"."MakeupType", "m"."Mobile", "m"."Name", "m"."NumberOfMakeups", "m"."ReadyTime", "m"."RecipientEmail"
+FROM "MakeupBookings" AS "m"
+2024-08-06 00:10:54.115 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'MakeupBooking' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 00:10:54.120 +05:30 [DBG] Context 'ApplicationDbContext' started tracking 'MakeupBooking' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-08-06 00:10:54.120 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.120 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 13ms reading results.
+2024-08-06 00:10:54.120 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.120 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.120 +05:30 [INF] Found 2 bookings in the database.
+2024-08-06 00:10:54.120 +05:30 [INF] Bookings fetched successfully.
+2024-08-06 00:10:54.121 +05:30 [DBG] Compiling query expression: 
+'DbSet<PdfLink>()'
+2024-08-06 00:10:54.122 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<PdfLink>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PdfLink.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PdfLink.FilePath (string) Required, 1], [Property: PdfLink.UserId (string) Required, 2] }
+        SELECT p.Id, p.FilePath, p.UserId
+        FROM PdfLinks AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PdfLink>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.122 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.122 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.122 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.122 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.122 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.122 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."FilePath", "p"."UserId"
+FROM "PdfLinks" AS "p"
+2024-08-06 00:10:54.122 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."FilePath", "p"."UserId"
+FROM "PdfLinks" AS "p"
+2024-08-06 00:10:54.122 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.122 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 0ms reading results.
+2024-08-06 00:10:54.122 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.122 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.124 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .Select(u => new SelectListItem{ 
+        Value = u.Id, 
+        Text = u.UserName 
+    }
+    )'
+2024-08-06 00:10:54.128 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SelectListItem>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Value -> 0
+            Text -> 1
+        SELECT a.Id AS Value, a.UserName AS Text
+        FROM AspNetUsers AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SelectListItem>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.128 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.128 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.128 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.128 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.128 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.128 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id" AS "Value", "a"."UserName" AS "Text"
+FROM "AspNetUsers" AS "a"
+2024-08-06 00:10:54.128 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id" AS "Value", "a"."UserName" AS "Text"
+FROM "AspNetUsers" AS "a"
+2024-08-06 00:10:54.129 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.129 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 0ms reading results.
+2024-08-06 00:10:54.129 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.129 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.129 +05:30 [DBG] Compiling query expression: 
+'DbSet<MakeupBooking>()'
+2024-08-06 00:10:54.130 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<MakeupBooking>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MakeupBooking.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MakeupBooking.EventDate (DateTime) Required, 1], [Property: MakeupBooking.EventLocation (string) Required, 2], [Property: MakeupBooking.MakeupType (string) Required, 3], [Property: MakeupBooking.Mobile (string) Required, 4], [Property: MakeupBooking.Name (string) Required, 5], [Property: MakeupBooking.NumberOfMakeups (int) Required, 6], [Property: MakeupBooking.ReadyTime (TimeSpan) Required, 7], [Property: MakeupBooking.RecipientEmail (string) Required, 8] }
+        SELECT m.Id, m.EventDate, m.EventLocation, m.MakeupType, m.Mobile, m.Name, m.NumberOfMakeups, m.ReadyTime, m.RecipientEmail
+        FROM MakeupBookings AS m), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, MakeupBooking>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.132 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.132 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.132 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.132 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.132 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.132 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."EventDate", "m"."EventLocation", "m"."MakeupType", "m"."Mobile", "m"."Name", "m"."NumberOfMakeups", "m"."ReadyTime", "m"."RecipientEmail"
+FROM "MakeupBookings" AS "m"
+2024-08-06 00:10:54.133 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."Id", "m"."EventDate", "m"."EventLocation", "m"."MakeupType", "m"."Mobile", "m"."Name", "m"."NumberOfMakeups", "m"."ReadyTime", "m"."RecipientEmail"
+FROM "MakeupBookings" AS "m"
+2024-08-06 00:10:54.133 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.133 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 0ms reading results.
+2024-08-06 00:10:54.133 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.134 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.134 +05:30 [DBG] Compiling query expression: 
+'DbSet<PdfLink>()'
+2024-08-06 00:10:54.135 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<PdfLink>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: PdfLink.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: PdfLink.FilePath (string) Required, 1], [Property: PdfLink.UserId (string) Required, 2] }
+        SELECT p.Id, p.FilePath, p.UserId
+        FROM PdfLinks AS p), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, PdfLink>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.135 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.135 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.135 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.135 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.135 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.135 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."FilePath", "p"."UserId"
+FROM "PdfLinks" AS "p"
+2024-08-06 00:10:54.135 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "p"."Id", "p"."FilePath", "p"."UserId"
+FROM "PdfLinks" AS "p"
+2024-08-06 00:10:54.135 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.135 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 0ms reading results.
+2024-08-06 00:10:54.135 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.135 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.136 +05:30 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .Select(u => new { 
+        Id = u.Id, 
+        UserName = u.UserName
+     })'
+2024-08-06 00:10:54.137 +05:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<<>f__AnonymousType0<string, string>>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            Id -> 0
+            UserName -> 1
+        SELECT a.Id, a.UserName
+        FROM AspNetUsers AS a), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, <>f__AnonymousType0<string, string>>, 
+    ishitagualti.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-08-06 00:10:54.137 +05:30 [DBG] Opening connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.137 +05:30 [DBG] Opened connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.137 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-08-06 00:10:54.137 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.137 +05:30 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-08-06 00:10:54.137 +05:30 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+2024-08-06 00:10:54.137 +05:30 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+2024-08-06 00:10:54.137 +05:30 [DBG] Closing data reader to 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.137 +05:30 [DBG] A data reader for 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db' is being disposed after spending 0ms reading results.
+2024-08-06 00:10:54.137 +05:30 [DBG] Closing connection to database 'main' on server '/Users/lokeshkriplani/projects/ishitagualti/app.db'.
+2024-08-06 00:10:54.137 +05:30 [DBG] Closed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.138 +05:30 [DBG] View lookup cache miss for view 'AdminDashboard' in controller 'Home'.
+2024-08-06 00:10:54.138 +05:30 [INF] Executing ViewResult, running view AdminDashboard.
+2024-08-06 00:10:54.138 +05:30 [DBG] The view path '/Views/Home/AdminDashboard.cshtml' was found in 0.4252ms.
+2024-08-06 00:10:54.146 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Delete_booking],controller=[Home])
+2024-08-06 00:10:54.146 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Delete_booking and 
+2024-08-06 00:10:54.146 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Delete_booking
+2024-08-06 00:10:54.148 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:10:54.148 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[Delete_booking],controller=[Home])
+2024-08-06 00:10:54.148 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Delete_booking and 
+2024-08-06 00:10:54.148 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Delete_booking
+2024-08-06 00:10:54.148 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:10:54.151 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[UploadPdf],controller=[Home])
+2024-08-06 00:10:54.151 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/UploadPdf and 
+2024-08-06 00:10:54.151 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/UploadPdf
+2024-08-06 00:10:54.151 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:10:54.163 +05:30 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2024-08-06 00:10:54.164 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:54.164 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:54.164 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:54.164 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:54.164 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:54.164 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:54.164 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BridalMakeup],controller=[Home])
+2024-08-06 00:10:54.164 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BridalMakeup and 
+2024-08-06 00:10:54.164 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BridalMakeup
+2024-08-06 00:10:54.164 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[PartyMakeup],controller=[Home])
+2024-08-06 00:10:54.164 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/PartyMakeup and 
+2024-08-06 00:10:54.164 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/PartyMakeup
+2024-08-06 00:10:54.164 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BookNow],controller=[Home])
+2024-08-06 00:10:54.164 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BookNow and 
+2024-08-06 00:10:54.164 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BookNow
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Portfolio],controller=[Home])
+2024-08-06 00:10:54.165 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Portfolio and 
+2024-08-06 00:10:54.165 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Portfolio
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Academy],controller=[Home])
+2024-08-06 00:10:54.165 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Academy and 
+2024-08-06 00:10:54.165 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Academy
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[About],controller=[Home])
+2024-08-06 00:10:54.165 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/About and 
+2024-08-06 00:10:54.165 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/About
+2024-08-06 00:10:54.165 +05:30 [DBG] View lookup cache hit for view '_LoginPartial' in controller 'Home'.
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[AdminDashboard],controller=[Home])
+2024-08-06 00:10:54.165 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/AdminDashboard and 
+2024-08-06 00:10:54.165 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/AdminDashboard
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:10:54.165 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:10:54.165 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:10:54.165 +05:30 [DBG] Found the endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] for address (returnUrl=[/],area=[Identity],page=[/Account/Logout])
+2024-08-06 00:10:54.166 +05:30 [DBG] Successfully processed template Identity/Account/Logout for /Account/Logout resulting in /Identity/Account/Logout and ?returnUrl=%2F
+2024-08-06 00:10:54.166 +05:30 [DBG] Link generation succeeded for endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] with result /Identity/Account/Logout?returnUrl=%2F
+2024-08-06 00:10:54.166 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:10:54.166 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-08-06 00:10:54.166 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-06 00:10:54.166 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-08-06 00:10:54.166 +05:30 [INF] Executed ViewResult - view AdminDashboard executed in 28.556ms.
+2024-08-06 00:10:54.166 +05:30 [INF] Executed action ishitagualti.Controllers.HomeController.AdminDashboard (ishitagualti) in 479.2109ms
+2024-08-06 00:10:54.166 +05:30 [INF] Executed endpoint 'ishitagualti.Controllers.HomeController.AdminDashboard (ishitagualti)'
+2024-08-06 00:10:54.166 +05:30 [DBG] Connection id "0HN5LFOH11AQV" completed keep alive response.
+2024-08-06 00:10:54.167 +05:30 [DBG] 'ApplicationDbContext' disposed.
+2024-08-06 00:10:54.169 +05:30 [DBG] Disposing connection to database 'main' on server 'app.db'.
+2024-08-06 00:10:54.169 +05:30 [DBG] Disposed connection to database 'main' on server 'app.db' (0ms).
+2024-08-06 00:10:54.169 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5095/Home/AdminDashboard - 200 null text/html; charset=utf-8 526.4388ms
+2024-08-06 00:11:15.554 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5095/Home/UploadPdf - multipart/form-data; boundary=----WebKitFormBoundarylWQgHwX5bzeXmFea 27975
+2024-08-06 00:11:15.560 +05:30 [DBG] POST requests are not supported
+2024-08-06 00:11:15.570 +05:30 [DBG] 1 candidate(s) found for the request path '/Home/UploadPdf'
+2024-08-06 00:11:15.570 +05:30 [DBG] Endpoint 'ishitagualti.Controllers.HomeController.UploadPdf (ishitagualti)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/Home/UploadPdf'
+2024-08-06 00:11:15.571 +05:30 [DBG] Request matched endpoint 'ishitagualti.Controllers.HomeController.UploadPdf (ishitagualti)'
+2024-08-06 00:11:15.576 +05:30 [DBG] AuthenticationScheme: Identity.Application was successfully authenticated.
+2024-08-06 00:11:15.576 +05:30 [INF] Executing endpoint 'ishitagualti.Controllers.HomeController.UploadPdf (ishitagualti)'
+2024-08-06 00:11:15.596 +05:30 [INF] Route matched with {action = "UploadPdf", controller = "Home", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UploadPdf(ishitagualti.Models.AdminDashboardViewModel) on controller ishitagualti.Controllers.HomeController (ishitagualti).
+2024-08-06 00:11:15.596 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.AutoValidateAntiforgeryTokenAuthorizationFilter","Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter"]
+2024-08-06 00:11:15.596 +05:30 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:11:15.596 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-08-06 00:11:15.596 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-08-06 00:11:15.596 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2024-08-06 00:11:15.601 +05:30 [DBG] Connection id "0HN5LFOH11AQV", Request id "0HN5LFOH11AQV:00000004": started reading request body.
+2024-08-06 00:11:15.602 +05:30 [DBG] Connection id "0HN5LFOH11AQV", Request id "0HN5LFOH11AQV:00000004": done reading request body.
+2024-08-06 00:11:15.607 +05:30 [DBG] Antiforgery successfully validated a request.
+2024-08-06 00:11:15.607 +05:30 [DBG] Executing controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:11:15.607 +05:30 [DBG] Executed controller factory for controller ishitagualti.Controllers.HomeController (ishitagualti)
+2024-08-06 00:11:15.610 +05:30 [DBG] Attempting to bind parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel' ...
+2024-08-06 00:11:15.611 +05:30 [DBG] Attempting to bind parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel' using the name '' in request data ...
+2024-08-06 00:11:15.612 +05:30 [DBG] Attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.UserId' of type 'System.String' using the name 'UserId' in request data ...
+2024-08-06 00:11:15.613 +05:30 [DBG] Done attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.UserId' of type 'System.String'.
+2024-08-06 00:11:15.613 +05:30 [DBG] Attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.PdfFile' of type 'Microsoft.AspNetCore.Http.IFormFile' using the name 'PdfFile' in request data ...
+2024-08-06 00:11:15.614 +05:30 [DBG] Done attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.PdfFile' of type 'Microsoft.AspNetCore.Http.IFormFile'.
+2024-08-06 00:11:15.614 +05:30 [DBG] Attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.Bookings' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.MakeupBooking]' using the name 'Bookings' in request data ...
+2024-08-06 00:11:15.614 +05:30 [DBG] Could not find a value in the request with name 'Bookings' for binding property 'ishitagualti.Models.AdminDashboardViewModel.Bookings' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.MakeupBooking]'.
+2024-08-06 00:11:15.614 +05:30 [DBG] Done attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.Bookings' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.MakeupBooking]'.
+2024-08-06 00:11:15.614 +05:30 [DBG] Attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.PdfLinks' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.PdfLink]' using the name 'PdfLinks' in request data ...
+2024-08-06 00:11:15.614 +05:30 [DBG] Could not find a value in the request with name 'PdfLinks' for binding property 'ishitagualti.Models.AdminDashboardViewModel.PdfLinks' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.PdfLink]'.
+2024-08-06 00:11:15.614 +05:30 [DBG] Done attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.PdfLinks' of type 'System.Collections.Generic.IEnumerable`1[ishitagualti.Models.PdfLink]'.
+2024-08-06 00:11:15.615 +05:30 [DBG] Attempting to bind property 'ishitagualti.Models.AdminDashboardViewModel.Users' of type 'Microsoft.AspNetCore.Mvc.Rendering.SelectList' using the name 'Users' in request data ...
+2024-08-06 00:11:15.615 +05:30 [DBG] Could not bind to model of type 'Microsoft.AspNetCore.Mvc.Rendering.SelectList' as there were no values in the request for any of the properties.
+2024-08-06 00:11:15.615 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel'.
+2024-08-06 00:11:15.615 +05:30 [DBG] Done attempting to bind parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel'.
+2024-08-06 00:11:15.615 +05:30 [DBG] Attempting to validate the bound parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel' ...
+2024-08-06 00:11:15.617 +05:30 [DBG] Done attempting to validate the bound parameter 'model' of type 'ishitagualti.Models.AdminDashboardViewModel'.
+2024-08-06 00:11:15.618 +05:30 [DBG] View lookup cache hit for view 'AdminDashboard' in controller 'Home'.
+2024-08-06 00:11:15.618 +05:30 [INF] Executing ViewResult, running view AdminDashboard.
+2024-08-06 00:11:15.619 +05:30 [DBG] The view path '/Views/Home/AdminDashboard.cshtml' was found in 0.1668ms.
+2024-08-06 00:11:15.619 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (action=[UploadPdf],controller=[Home])
+2024-08-06 00:11:15.619 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/UploadPdf and 
+2024-08-06 00:11:15.620 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/UploadPdf
+2024-08-06 00:11:15.620 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:11:15.621 +05:30 [DBG] View lookup cache hit for view '_Layout' in controller 'Home'.
+2024-08-06 00:11:15.623 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:11:15.623 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:11:15.623 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:11:15.623 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:11:15.623 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:11:15.624 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:11:15.624 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BridalMakeup],controller=[Home])
+2024-08-06 00:11:15.624 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BridalMakeup and 
+2024-08-06 00:11:15.624 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BridalMakeup
+2024-08-06 00:11:15.624 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[PartyMakeup],controller=[Home])
+2024-08-06 00:11:15.624 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/PartyMakeup and 
+2024-08-06 00:11:15.624 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/PartyMakeup
+2024-08-06 00:11:15.624 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[BookNow],controller=[Home])
+2024-08-06 00:11:15.624 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/BookNow and 
+2024-08-06 00:11:15.625 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/BookNow
+2024-08-06 00:11:15.625 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Portfolio],controller=[Home])
+2024-08-06 00:11:15.625 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Portfolio and 
+2024-08-06 00:11:15.625 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Portfolio
+2024-08-06 00:11:15.625 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Academy],controller=[Home])
+2024-08-06 00:11:15.626 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Academy and 
+2024-08-06 00:11:15.626 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Academy
+2024-08-06 00:11:15.626 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[About],controller=[Home])
+2024-08-06 00:11:15.626 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/About and 
+2024-08-06 00:11:15.626 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/About
+2024-08-06 00:11:15.626 +05:30 [DBG] View lookup cache hit for view '_LoginPartial' in controller 'Home'.
+2024-08-06 00:11:15.627 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[AdminDashboard],controller=[Home])
+2024-08-06 00:11:15.627 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/AdminDashboard and 
+2024-08-06 00:11:15.627 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/AdminDashboard
+2024-08-06 00:11:15.628 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2024-08-06 00:11:15.628 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2024-08-06 00:11:15.628 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2024-08-06 00:11:15.629 +05:30 [DBG] Found the endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] for address (returnUrl=[/],area=[Identity],page=[/Account/Logout])
+2024-08-06 00:11:15.629 +05:30 [DBG] Successfully processed template Identity/Account/Logout for /Account/Logout resulting in /Identity/Account/Logout and ?returnUrl=%2F
+2024-08-06 00:11:15.629 +05:30 [DBG] Link generation succeeded for endpoints ["/Account/Logout","Route: {controller=Home}/{action=Index}/{id?}"] with result /Identity/Account/Logout?returnUrl=%2F
+2024-08-06 00:11:15.629 +05:30 [DBG] An antiforgery cookie token was reused.
+2024-08-06 00:11:15.629 +05:30 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2024-08-06 00:11:15.629 +05:30 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2024-08-06 00:11:15.630 +05:30 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2024-08-06 00:11:15.631 +05:30 [INF] Executed ViewResult - view AdminDashboard executed in 12.3635ms.
+2024-08-06 00:11:15.631 +05:30 [INF] Executed action ishitagualti.Controllers.HomeController.UploadPdf (ishitagualti) in 34.3867ms
+2024-08-06 00:11:15.631 +05:30 [INF] Executed endpoint 'ishitagualti.Controllers.HomeController.UploadPdf (ishitagualti)'
+2024-08-06 00:11:15.631 +05:30 [DBG] Connection id "0HN5LFOH11AQV" completed keep alive response.
+2024-08-06 00:11:15.632 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5095/Home/UploadPdf - 200 null text/html; charset=utf-8 78.3855ms
+2024-08-06 00:11:54.251 +05:30 [DBG] Connection id "0HN5LFOH11AQV" received FIN.
+2024-08-06 00:11:54.258 +05:30 [DBG] Connection id "0HN5LFOH11AQV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-08-06 00:11:54.266 +05:30 [DBG] Connection id "0HN5LFOH11AQV" disconnecting.
+2024-08-06 00:11:54.268 +05:30 [DBG] Connection id "0HN5LFOH11AQV" stopped.
